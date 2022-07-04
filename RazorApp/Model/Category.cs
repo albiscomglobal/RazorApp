@@ -5,7 +5,7 @@ namespace RazorApp.Model
     public class Category
     {
         [Key]
-        public int MyProperty { get; set; }
+        public int Id { get; set; }
 
         [Required]
         public int Name { get; set; }
